@@ -1,6 +1,6 @@
 {
   "name": "@sh/t2-signal",
-  "version": "0.1.0-beta.1",
+  "version": "0.1.1-beta.1",
   "license": "MIT",
   "exports": "./src/index.ts"
 }
