@@ -1,10 +1,6 @@
 {
-  "name": "@sh/signal",
-  "version": "0.1.0",
+  "name": "@sh/t2-signal",
+  "version": "0.1.0-beta.1",
   "license": "MIT",
-  "exports": "./mod.ts",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ishantoz/t0-signal.git"
-  }
+  "exports": "./src/index.ts"
 }
