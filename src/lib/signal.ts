@@ -67,7 +67,7 @@ export function signal<T>(value: T): { value: T; subscribe: (fn: EffectFn) => Un
  */
 export function effect(fn: EffectFn): void {
 	const runEffect: EffectFn = () => {
-		subscriberStack.push(runEffect)
+		subscriberStack.push(fn)
 		try {
 			fn()
 		} finally {
